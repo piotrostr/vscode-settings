@@ -1,0 +1,42 @@
+{
+  "workbench.editor.untitled.hint": "hidden",
+  "terminal.external.osxExec": "/Applications/Alacritty.app/Contents/MacOS/alacritty",
+  "editor.formatOnSave": true,
+  "editor.fontFamily": "\"SFMono Nerd Font\"",
+  "git.suggestSmartCommit": true,
+  "terminal.explorerKind": "external",
+  "terminal.integrated.fontFamily": "monospace",
+  "editor.inlineSuggest.enabled": true,
+  "yaml.schemas": {
+    "kubernetes": [
+      "deployment.yaml",
+      "service.yaml",
+      "manifest.yaml",
+      "ingress.yaml",
+      "pod.yaml"
+    ]
+  },
+  "[go]": {
+    "editor.insertSpaces": false,
+    "editor.formatOnSave": true,
+    "editor.codeActionsOnSave": {
+      "source.organizeImports": true,
+      "source.fixAll": true
+    },
+    "editor.suggest.snippetsPreventQuickSuggestions": false
+  },
+  "window.zoomLevel": 2,
+  "github.copilot.enable": {
+    "*": true,
+    "plaintext": false,
+    "markdown": false
+  },
+  "editor.tabSize": 2,
+  "editor.bracketPairColorization.independentColorPoolPerBracketType": true,
+  "editor.lineNumbers": "relative",
+  "javascript.updateImportsOnFileMove.enabled": "always",
+  "workbench.colorTheme": "Gruvbox Dark Hard",
+  "vim.leader": "<space>",
+  "go.toolsManagement.autoUpdate": true,
+  "editor.cursorStyle": "block"
+}
